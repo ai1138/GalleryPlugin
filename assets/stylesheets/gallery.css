@@ -1,0 +1,25 @@
+div.wrap {
+  border-left: 4px solid #ccc;
+  border-color: blue;
+  padding: 3px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+div.gallery {
+  margin: 0px;
+  border: 1px solid #ccc;
+  height: 100px;
+  flex: 0 0 auto;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: auto;
+  height: 100%;
+}
