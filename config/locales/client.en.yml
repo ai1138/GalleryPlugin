@@ -1,2 +1,6 @@
 en:
   js:
+    composer:
+      gallery_button_title: "Insert Gallery"
+      gallery_default_text: "Add image"
+
